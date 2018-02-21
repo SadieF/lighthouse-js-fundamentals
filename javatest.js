@@ -1,4 +1,15 @@
-var ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking powder", "chocolate chips", "bananas"];
-for (var i = ingredients.length - 1; i > 0; i--) {
-  console.log(ingredients[i]);
+function lastIndexOf(array, value) {
+  var error = -1;
+  if (value !== array) {
+    return error;
+  } else {
+    for (var i = 0; i === value; i++)
+      console.log(lastIndexOf[i])
+  }
 }
+
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 1), "=?", 3);
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 2), "=?", 4);
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 3), "=?", -1);
+console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
+console.log(lastIndexOf([], 3), "=?", -1);
