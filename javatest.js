@@ -1,12 +1,4 @@
-function calculateRectangleArea(length, width) {
-  return (length * width);
-}
-
-function calculateTriangleArea(base, height) {
-  return ((base * height) / 2);
-}
-
-function calculateCircleArea(radius) {
-  return (math.PI*radius)
-
+var ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking powder", "chocolate chips", "bananas"];
+for (var i = ingredients.length - 1; i > 0; i--) {
+  console.log(ingredients[i]);
 }
